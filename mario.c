@@ -16,7 +16,7 @@ void printPyramid(int height, int maxHeight){
     }
     printPyramid(height -1, maxHeight);
     for (int j = maxHeight - height; j > 0; j--){
-        printf("-");
+        printf(" ");
     }
     for (int i = 0; i < height; i++){
         printf("#");
